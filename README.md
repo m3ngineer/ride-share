@@ -55,10 +55,11 @@ I tested a series of classifier model to predict churn, including logistic regre
 
 I used a series of metrics to evaluate these models, including accuracy, precision, recall, and F1 score.
 
-Each model was initially performed on the data out of the box and then evaluated using a grid search of hyperparameters with 5-fold cross validation.
+Each model was initially used out of the box and then iteratively evaluated using a grid search of hyperparameters with 5-fold cross validation.
 
 ### Model evaluation
-The predicted probabilities, false positive rate (FPR), and true positive rate (TPR) were calculated for each model in order to compare and evaluate model performance
+The predicted probabilities, false positive rate (FPR), and true positive rate (TPR) were calculated for each model in order to compare and evaluate model performance. The gradient boosted model performed with superior
+
 
 ![ROC curve of models](img/ROC_curve.png)
 
